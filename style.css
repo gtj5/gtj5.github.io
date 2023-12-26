@@ -22,4 +22,6 @@
     color: white;
 }
 
-
+.navbar a{
+    font-family: Verdana !important;
+}
