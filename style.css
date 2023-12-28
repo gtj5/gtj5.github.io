@@ -22,8 +22,10 @@
     color: white;
 }
 
-
-
 .imageAboutPage {
     width: 80%;
+}
+
+.navbarScroll.navbarDark{
+    background-color: black;
 }
