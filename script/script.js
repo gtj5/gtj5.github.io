@@ -9,3 +9,16 @@ window.onscroll = function(){
         header.classList.remove('navbarDark');
     }
 }
+
+import Pdf from "/resume/Jean Ortiz Resume.pdf";
+
+onResumeClick(){ 
+    window.open(Pdf);
+}
+
+render() { 
+return(
+    <a onClick={this.onResumeClick}>
+    Resume
+    </a>
+)}
